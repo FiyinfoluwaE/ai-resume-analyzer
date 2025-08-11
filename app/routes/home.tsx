@@ -8,7 +8,7 @@ import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resume Analyzer" },
+    { title: "ResuMetrics" },
     { name: "description", content: "Smart feedback for your dream job!" },
   ];
 }

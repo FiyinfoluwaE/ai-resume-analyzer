@@ -6,7 +6,7 @@ import Details from "~/components/Details";
 import ATS from "~/components/ATS";
 
 export const meta = () => [
-  { title: "Resume Analyzer | Review" },
+  { title: "ResuMetrics | Review" },
   { name: "description", content: "Detailed overview of your resume" },
 ];
 
