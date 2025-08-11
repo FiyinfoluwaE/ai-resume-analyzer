@@ -44,8 +44,8 @@ export default function Home() {
       <section className="main-section">
         <div className="page-heading py-16">
           <h1>Track Your Applications & Resume Rating</h1>
-          {!loadResumes && resumes?.length === 0 ? (
-            <h2>No resumes found. upload your first resume to get feedback</h2>
+          {!loadingResumes && resumes?.length === 0 ? (
+            <h2>No resumes found. Upload your first resume to get feedback.</h2>
           ) : (
             <h2>Review your submissions and check AI-powered feedback.</h2>
           )}
